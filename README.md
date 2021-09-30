@@ -1,6 +1,6 @@
-![Issues](https://img.shields.io/github/issues/Magnesiaworld/make-pull-request)
+<!-- ![Issues](https://img.shields.io/github/issues/Magnesiaworld/make-pull-request)
 ![Stars GitHub](https://img.shieorldlds.io/github/stars/Magnesiaworld/make-pull-request)
-![Forks](https://img.shields.io/github/forks/Magnesiaworld/make-pull-request)
+![Forks](https://img.shields.io/github/forks/Magnesiaworld/make-pull-request) -->
 
 ## make-pull-request
 It's an initiative by Magnesia World Technologies to help create more awareness about Open Source and help introduce many more students to the benefits of FOSS. We will organize lots of events that will prove to be very profitable for the students and encourage them to contribute in open source, this is our humble step.
