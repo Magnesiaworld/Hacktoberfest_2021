@@ -10,7 +10,7 @@ int main() {
     string output = ""; 
 
     if (i % 3 == 0) output += "Fizz"; // If our current number is a multiple of 3, add "Fizz to the output"
-    if (i % 5 == 0) output += "Buzz"; // If our current number is a multiple of 5, add "Fizz to the output"
+    if (i % 5 == 0) output += "Buzz"; // If our current number is a multiple of 5, add "Buzz to the output"
 
     if (output == "") output = to_string(i); // If the output is empty (our number isn't a multiple of 3 or 5), we simply set it to our number
 
