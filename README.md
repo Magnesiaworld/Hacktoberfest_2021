@@ -1,4 +1,4 @@
-![Issues](https://img.shields.io/github/issues/Magnesiaworld/make-pull-request)
+![Issues](https://img.shields.io/https://github.com/Magnesiaworld/Hacktoberfest_2021/issues)
 ![Stars GitHub](https://img.shieorldlds.io/github/stars/Magnesiaworld/make-pull-request)
 ![Forks](https://img.shields.io/github/forks/Magnesiaworld/make-pull-request)
 
