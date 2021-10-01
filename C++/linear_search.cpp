@@ -4,9 +4,9 @@
 #include <iostream>
 using namespace std;
 
-int search(int arr[], int n, int x)
+int search(int arr[], int size, int x)
 {
-	for (int i = 0; i < n; i++)
+	for (int i = 0; i < size; i++)
 		if (arr[i] == x)
 			return i;
 	return -1;
@@ -15,12 +15,17 @@ int search(int arr[], int n, int x)
 // main function code
 int main(void)
 {
-	int arr[] = {10, 20, 80, 30, 60, 50, 110, 100, 130, 170};
+	int size;
+	cout<<"Enter size of array";
+	cin>>size;
+	cout<<"Enter array elements";
+	for(int i=0;i<size;i++)
+		cin>>arr[i];
 	int x = 110;
-	int n = sizeof(arr) / sizeof(arr[0]);
+	
 
 	// Function call
-	int result = search(arr, n, x);
+	int result = search(arr, size, x);
 	(result == -1)
 		? cout << "Element x is not present "
 		: cout << "Element x is present at index " << result;
