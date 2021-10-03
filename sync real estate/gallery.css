@@ -1,0 +1,53 @@
+table {
+    border-collapse: separate;
+    border-spacing: 10px 20px;
+    border-spacing: 30px 50px;
+}
+
+th {
+    background-color: #4287f5;
+    color: white;
+}
+
+th,
+td {
+    width: 400px;
+    text-align: center;
+    border: 1px;
+    padding: 5px;
+}
+
+h2 {
+    color: #4287f5;
+}
+
+.container {
+    position: relative;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+figcaption {
+    background-color: black;
+    color: white;
+    font-style: italic;
+    padding: 25px;
+    text-align: center;
+}
+
+body {
+    background-image: linear-gradient(to bottom left, #ffd89b, #19547b);
+}
+
+#title {
+    font-size: 40px;
+}

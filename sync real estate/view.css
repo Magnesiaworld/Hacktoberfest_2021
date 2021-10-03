@@ -1,0 +1,44 @@
+body{
+    background-image:url("img/office\ \(2\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul {
+    margin-bottom: 200px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 465px;
+    font-size: 32px;
+    background-color: rgba(17, 16, 16, 0.76);
+    height: 300px;
+    width: 500px;
+    border: 2px solid grey;
+    padding-top: 15px;
+    padding-left: 50px;
+    border-radius: 20px;
+}
+
+select {
+    height: 30px;
+    width: 200px;
+}
+
+.sb {
+    width: 80px;
+    margin-left: 200px;
+    margin-top: 2px;
+    padding: 10px;
+}
+label{
+    color: white;
+    margin-bottom: 40px;
+}
+.sss{
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,60 @@
+body {
+    background-image: linear-gradient(#ff9966,#ed4264);
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: right;
+    margin-right: 50px;
+}
+
+#sideimg {
+    height: 30%;
+    width: 27%;
+    margin-left: 140px;
+    border-radius: 15px;
+    border: 2px solid rgb(6, 218, 247);
+}
+
+p {
+    margin-bottom: 10px;
+    font-size: 20px;
+
+}
+
+.image {
+    display: flex;
+
+}
+
+.text {
+    width: 700px;
+    height: 250px;
+    margin-left: 100px;
+    border: 4px solid black;
+    background-image: linear-gradient(to bottom right, #8594e4, #a83f54);
+    padding: 8px;
+    border-radius: 15px;
+}
+
+#sales {
+    text-align: left;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+
+#uploadreport {
+    margin-left: 45px;
+    width: 480px;
+    margin-left: 100px;
+}
+
+.footer {
+    color: black;
+}
+#review{
+    padding-left: 15px;
+}

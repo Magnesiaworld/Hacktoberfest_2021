@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("img/index.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.login-box {
+    width: 380px;
+    height: 469px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    top: 50%;
+    left: 76%;
+    bottom: 10%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    margin-top: 25px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.login-box p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+
+}
+
+.login-box input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login-box input[type="text"],
+input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.login-box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.login-box input[type="submit"]:hover {
+    cursor: pointer;
+    background: #39DC79;
+    color: #000;
+}
+
+.container {
+    position: relative;
+}
+
+.text-block {
+    position: absolute;
+    background-color: black;
+    top: 5px;
+    left: 5%;
+    opacity: 0.7;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 55px;
+    width: 500px;
+    margin-top: 43px;
+    margin-left: 212px;
+}
+
+p {
+    font-size: 25px;
+    padding-top: 10px
+}
+
+.big {
+    display: flex;
+
+}
+
+.heading {
+    font-size: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(231, 195, 147);
+    height: 50px;
+    background: linear-gradient(90deg, rgb(63 164 211 / 32%) 10%, rgb(5 3 37 / 41%) 67%, rgb(39 124 181 / 37%) 100%);
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #4CAF50;
+}
+
+.slider {
+    margin-top: 550px;
+    margin-bottom: 50px;
+}
+
+img {
+    border: 5px solid white;
+}
+
+marquee {
+    margin-bottom: -25px;
+}
+
+.about {
+    padding-top: 70px;
+}
+
+#about-text {
+    font-size: 20px;
+}
