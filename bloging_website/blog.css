@@ -1,0 +1,516 @@
+body {
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    background-image: url("gray.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 19px;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+header .overlay2 {
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    color: #f5eaea;
+    text-shadow: 0 0 5px #79447d, 0 0 10px #241928, 0 0 15px #bff071, 0 0 20px #91eb68, 0 0 25px #450949, 0 0 30px #581c53, 0 0 35px #af57b0;
+    background-color: rgb(83 111 213 / 52%);
+    padding-top: 0px;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px;
+    }
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+h1 {
+    font-family: 'Coda Caption', sans-serif;
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+
+h3,
+q {
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+q {
+    margin-left: -39px;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: #333;
+    background: #a4bedfe8;
+    box-shadow: 0 3px 20px 0 #0000003b;
+    margin-top: 48px;
+}
+
+#myBtn {
+    margin-top: 3px;
+}
+
+button:hover {
+    cursor: pointer;
+    background: rgb(0, 0, 0);
+    color: #fff;
+}
+
+#more {
+    display: none;
+}
+
+#more1 {
+    display: none;
+}
+
+#more2 {
+    display: none;
+}
+
+#more3 {
+    display: none;
+}
+
+#more4 {
+    display: none;
+}
+
+#more5 {
+    display: none;
+}
+
+.any {
+    width: 500px;
+    height: 279px;
+    margin-bottom: 30px;
+    border: 4px solid rgb(150, 149, 149);
+    border-radius: 10px;
+    margin: 40px;
+    background-color: rgb(0, 0, 0);
+    background-color: rgb(83 111 213 / 52%);
+    color: #3f3a3a;
+    margin-left: 85px;
+    padding: 30px;
+    overflow: auto;
+}
+
+.fa {
+    width: 10px;
+    height: 10px;
+    border-style: none;
+    color: blue;
+}
+
+.somu {
+    color: red;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Rubik:700&display=swap");
+
+.bar {
+    margin-right: 100%;
+}
+
+.bar2 {
+    margin-left: 1198px;
+    background-color: blue;
+    padding: 4px;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 10px;
+}
+
+.conthead {
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.overlay3 {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay3 input {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #313030;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay3 .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    color: #818181;
+    cursor: pointer;
+}
+
+.overlay3 .closebtn:hover {
+    color: #ffff;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay3 .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+.bigcontainer {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.form {
+    border: 4px solid white;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.inp {
+    width: 340px;
+    height: 10px;
+    margin: 25%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 10px;
+}
+
+.name {
+    margin-left: -410px;
+    font-size: 30px;
+    color: gray;
+    font-family: cursive;
+}
+
+.logimg {
+    height: 200px;
+    width: 200px;
+    margin-top: -117px;
+    margin-bottom: -18px;
+}
+
+#in {
+    margin-bottom: 29px;
+    margin-top: 10px;
+}
+
+.abt {
+    border: 4px solid white;
+    margin: 20px;
+    border-radius: 10px;
+    height: 421px;
+
+    margin-top: -90px;
+}
+
+#k {
+    border-bottom: 4px solid white;
+    font-size: 40px;
+    display: inline-block;
+}
+
+.logo {
+    margin-top: -6%;
+    margin-bottom: -52px;
+}
+
+#gr3 {
+    display: none;
+}
+
+#gr4 {
+    display: none;
+}
+
+#gr5 {
+    display: none;
+}
+
+#gr6 {
+    display: none;
+}
+
+.buttonxt {
+    display: flex;
+    flex-direction: row;
+}
+
+#tn1 {
+    margin: 10px;
+    width: 150px;
+    margin-left: 10px;
+    margin-top: -21px;
+    height: 38px;
+}
+
+#tn2 {
+    margin: 10px;
+    width: 150px;
+    margin-left: 353px;
+    margin-top: -21px;
+    height: 38px;
+}
+
+.containerout {
+    display: flex;
+    flex-direction: row;
+}
+
+.trending {
+    border: 4px solid white;
+    height: 335px;
+    width: 414px;
+    background-color: rgb(0, 0, 0);
+    background-color: rgb(83 111 213 / 52%);
+    margin-top: 41px;
+    margin-left: 319px;
+    border: 4px solid rgb(150, 149, 149);
+    border-radius: 10px;
+}
+
+.support {
+    border: 4px solid white;
+    height: 337px;
+    width: 416px;
+    background-color: rgb(83 111 213 / 52%);
+    margin-top: 82px;
+    margin-left: 319px;
+    border: 4px solid rgb(150, 149, 149);
+    border-radius: 10px;
+}
+
+.footer {
+    height: 103px;
+    background-color: rgba(0, 0, 0, 0.795);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.av {
+    color: white;
+}
+
+#social {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    color: white;
+}
+
+.foot {
+    display: flex;
+    margin-top: -9px;
+}
+
+.trendh {
+    font-size: 23px;
+    color: white;
+    margin: 21px;
+    margin-left: -1px;
+    text-transform: capitalize;
+}
+
+.txt {
+    color: white;
+    font-size: 24px;
+    text-shadow: 0 0 5px #79447d, 0 0 10px #241928, 0 0 15px #070707, 0 0 20px #d338ce, 0 0 25px #450949, 0 0 30px #581c53, 0 0 35px #af57b0;
+    margin-top: 15px;
+    margin-bottom: -33px;
+}
+
+#kj {
+    border-bottom: 4px solid white;
+    font-size: 34px;
+    display: inline-block;
+    color: #fff;
+    margin-left: 117px;
+    text-shadow: 0 0 5px #79447d, 0 0 10px #241928, 0 0 15px #070707, 0 0 20px #d338ce, 0 0 25px #450949, 0 0 30px #581c53, 0 0 35px #af57b0;
+}
+
+#tred1 {
+    color: #FAFA37;
+}
+
+#headjs1 {
+    color: #FAFA37;
+    margin-left: 90px;
+}
+
+#tred2 {
+    color: #676767;
+}
+
+#headjs2 {
+    color: #676767;
+    margin-left: 90px;
+}
+
+#tred3 {
+    color: #805533;
+}
+
+#headjs3 {
+    color: #805533;
+    margin-left: 90px;
+}
+
+.trenddiv {
+    display: flex;
+}
+
+#jk {
+    margin-left: 38px;
+    border-bottom: 4px solid white;
+    font-size: 34px;
+    display: inline-block;
+    color: #fff;
+
+    text-shadow: 0 0 5px #79447d, 0 0 10px #241928, 0 0 15px #070707, 0 0 20px #d338ce, 0 0 25px #450949, 0 0 30px #581c53, 0 0 35px #af57b0;
+}
+
+.art {
+    border: 4px solid white;
+    margin: 18px;
+    border-radius: 10px;
+    height: 653px;
+    margin-top: -179px;
+}
+
+.tarea {
+    background-color: black;
+    color: white;
+    border: 4px solid rgb(255, 255, 255);
+    font-size: 15px;
+    margin-top: 48px;
+}
+
+#ta2 {
+    display: block;
+    margin-left: 50%;
+    margin-top: 5px;
+}
+
+p {
+    font-family: 'New Tegomin', serif;
+    font-size: 23px;
+}
+
+.suppo {
+    margin-top: 36px;
+    margin-left: 97px;
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+    color: #423f4b;
+}
+
+.payme {
+    height: 408px;
+    width: 520px;
+    border: 4px solid rgb(255, 255, 255);
+    padding: 41px;
+    margin-left: 72px;
+    margin-top: -101px;
+}
+
+.imge {
+    margin-bottom: 50px;
+    height: 400px;
+    width: 512px;
+}
