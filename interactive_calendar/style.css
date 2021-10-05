@@ -1,0 +1,340 @@
+/* id "myHeader" */
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://wallpaper.dog/large/17050031.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Start Navigation Bar */
+
+
+.active {
+  width: 169px;
+  height: 28px;
+  color: rgb(235, 219, 235);
+  background-color: rgb(53, 8, 39);
+  text-align: center;
+}
+
+.left,
+.middle {
+  box-align: center;
+  padding: 222px;
+  display: flexbox;
+}
+
+.left {
+  grid-area: left;
+}
+
+.center {
+  margin: auto;
+  width: 750px;
+  border: 8px solid #8f3985;
+  padding: 10px;
+  background-color: rgb(78 9 61 / 58%);
+  /* grid-area: middle; */
+  height: 417px;
+  float: left;
+}
+
+.riv {
+  display: block;
+  height: 0%;
+  width: 70%;
+}
+.extra {
+  width: 250px;
+
+  padding: 10px;
+
+  height: 405px;
+  float: left;
+}
+.exa {
+  width: 250px;
+  background-color: #8f39858a;
+  padding: 10px;
+  border: 8px solid #8f3985;
+  height: 417px;
+  float: left;
+}
+ul {
+  list-style-type: none;
+}
+body {
+  font-family: Verdana, sans-serif;
+}
+
+.month {
+  padding: 31px 8px;
+  width: 100%;
+  /* background: #1abc9c; */
+  background: linear-gradient(55deg, #912f58 0%, #8e9cdb 51%, #a8428f 85%);
+
+  text-align: center;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: rgb(229, 192, 206);
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: rgb(78, 8, 43);
+  text-align: center;
+}
+
+.days {
+  padding: 10px 0;
+  background: rgb(238, 238, 238);
+  margin: 0;
+}
+
+.dayss {
+  padding: 0px 0;
+  background: rgb(238, 238, 238);
+  margin: 0;
+}
+
+.dayss li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 12px;
+  color: rgb(241, 184, 237);
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 12px;
+  color: rgb(241, 184, 237);
+}
+
+/* button date */
+.custom-btn {
+  width: 20px;
+
+  height: 20px;
+  text-align: center;
+  font-size: 15px;
+  color: blue;
+  border-radius: 100px;
+
+  font-family: "Lato", sans-serif;
+
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 5px 5px 5px 0px rgba(235, 187, 227, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: lightcoral;
+}
+
+.btn {
+  background: rgb(247, 165, 233);
+  border: none;
+  z-index: 1;
+}
+.btn:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  background-color: #663dff;
+  border-radius: 5px;
+
+  transition: all 0.3s ease;
+}
+.btn:hover {
+  color: rgb(236, 227, 227);
+}
+.btn:hover:after {
+  left: 0;
+  width: 100%;
+}
+.btn:active {
+  top: 2px;
+}
+
+.bar {
+  color: #5168f0;
+  border-radius: 5px;
+  width: 224px;
+  height: 350;
+  max-width: 820px;
+  margin: 15px auto;
+}
+
+.bar .r li {
+  flex: 3;
+
+  text-align: center;
+  transition: background-color 0.5s ease;
+}
+
+.bar .r a {
+  flex: 2;
+
+  display: flex;
+  color: #12041b;
+  text-decoration: blueviolet;
+  padding: 5px;
+}
+
+.bar .menu a > .fa {
+  font-weight: bold;
+  margin-left: 3px;
+}
+
+.bar .r li:hover {
+  background-color: #e7cbe4;
+}
+
+.bar .r li:hover .container {
+  display: auto;
+}
+
+/* ************************** for reminder page css **************************************************************** */
+
+.card {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  height: 400px;
+  width: 300px;
+  transform: translate(-50%, -50%);
+  transform-style: preserve-3d;
+  perspective: 600px;
+  transition: 2s;
+}
+.card:hover .card-front {
+  transform: rotateX(-180deg);
+}
+.card:hover .card-back {
+  transform: rotateX(0deg);
+}
+
+.card-front {
+  height: 100%;
+  width: 100%;
+
+  background-position: 50%, 50%;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  backface-visibility: hidden;
+  transform: rotateX(0deg);
+  transition: 2s;
+}
+
+.card-back {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgb(78 9 61 / 58%);
+  backface-visibility: hidden;
+  transform: rotateX(180deg);
+  transition: 2s;
+  color: #85c4e9da;
+}
+
+/* *************************************to do list ************************************************************************* */
+#xyz {
+  font-size: 20px;
+  font-family: ui-monospace;
+  border-radius: 50px;
+  border-color: #455fcf;
+  margin-left: 10px;
+  width: 660px;
+  height: 30px;
+  background-color: #db7cb4a6;
+  border-style: groove;
+}
+#r {
+  width: 672px;
+  font-size: 23px;
+  color: #e0e1e7;
+
+  padding: 10px;
+  border: 4px solid #ddd;
+}
+
+/* *************************login page************************************************************************** */
+.name {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: larger;
+  color: rgb(215 215 229);
+
+  display: block;
+  padding: 9px;
+}
+input {
+  width: 364px;
+  background-color: rgb(110 173 217 / 40%);
+  border-radius: 20px;
+  border-color: pink;
+}
+
+/* **********************************************************ABOUT US ****************************************************************************** */
+
+.about {
+  color: whitesmoke;
+  margin-left: 289px;
+}
+.us {
+  color: rgb(212 239 239 / 87%);
+  font-size: 24px;
+  margin-left: 30px;
+  font-family: monospace;
+}
+/* ***************************************event**********************************************************************************/
+.buttonx {
+  background-color: rgba(245, 222, 179, 0.795);
+  color: rgba(26, 25, 27, 0.842);
+  height: 26px;
+  width: 90px;
+  border-radius: 20px;
+  font-family: monospace;
+  font-size: larger;
+  border-color: #455fcf;
+}
+.buttonx:hover {
+  background-color: rgba(136, 178, 240, 0.795);
+}

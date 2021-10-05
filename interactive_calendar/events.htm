@@ -1,0 +1,60 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body>
+
+
+  <h1 id="myHeader" style="margin-top: 20px;">Calendar</h1>
+  <nav class="navbar">
+    <ul class="menu">
+      <li>
+        <a  href="index.htm">HOME <i class="fa fa-angle-down"></i></a>
+
+
+      </li>
+      <li>
+       <a  href="reminders.htm">REMINDERS</a> <i class="fa fa-angle-down"></i></a>
+
+      </li>
+      <li>
+        <a href="events.htm">EVENTS</a>
+      </li>
+      <li>
+        <a href="aboutus.htm">ABOUT US</a>
+      </li>
+      <li>
+        <a href="login.htm">LOGIN</a>
+      </li>
+ 
+
+  </nav>
+  <div class="extra" style="width: 380px;"></div>
+ 
+<div class="center" style="margin-left: -36px; width: 820px; overflow: scroll">
+  
+  <input  type="txt" name="any" value="your text here" id="xyz">
+    <button class="buttonx" onclick="my()">Add</button>
+    <div class="xy" >
+    <ul><li id="r" >
+      </li>
+    
+    </ul>
+
+  </div>
+</div>
+<script>
+  function my() 
+  {
+      let b=document.getElementById("xyz").value;
+
+      document.getElementById("r").innerHTML+= b+"<br> <hr>" ;
+  }
+</script>
+
+</body>
+
+</html>
