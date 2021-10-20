@@ -1,28 +1,42 @@
-// Program to Linear Search in C++
-//Author Prateek Saini
-
-#include <iostream>
+#include<iostream>
 using namespace std;
 
-int search(int arr[], int n, int x)
+int main()
 {
-	for (int i = 0; i < n; i++)
-		if (arr[i] == x)
-			return i;
-	return -1;
-}
+    int DATA[1000], n, item, loc, i;
+    cout<<"This program searches an element in an array using linear search method:\n";
+    cout<<"Enter the number of elements you want to enter in the array: \n";
+    cin>>n;
+    cout<<"You need to insert the elements one by one\n";
+    for(i=0;i<n;i++)
+    {
+        cout<<"Enter element: ";
+        cin>>DATA[i];
+    }
+    cout<<"Our inserted array is:";
+    for(i=0;i<n;i++)
+    {
+        cout<<DATA[i]<<"  ";
+    }
+    cout<<endl;
+    cout<<"Enter the element you want to search in the array: \n";
+    cin>>item;
+    loc=0;
+    for(i=0;i<n;i++)
+    {
+        if (DATA[i]==item)
+        {
+            cout<<"Element found at index "<<i<<endl;
+        }
+        else
+        {
+            loc=loc+1;
+        }
 
-// main function code
-int main(void)
-{
-	int arr[] = {10, 20, 80, 30, 60, 50, 110, 100, 130, 170};
-	int x = 110;
-	int n = sizeof(arr) / sizeof(arr[0]);
-
-	// Function call
-	int result = search(arr, n, x);
-	(result == -1)
-		? cout << "Element x is not present "
-		: cout << "Element x is present at index " << result;
-	return 0;
+        if(loc==n)
+        {
+            cout<<"Element not found:";
+        }
+        
+    }
 }
